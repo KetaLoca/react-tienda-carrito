@@ -32,7 +32,7 @@ export function Filters({ onChange }) {
           min="0"
           max="1000"
         />
-        <span>{minPrice}</span>
+        <span>${minPrice}</span>
       </div>
       <div>
         <label htmlFor={categoryFilterId}>Categoría</label>
