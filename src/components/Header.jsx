@@ -1,4 +1,5 @@
-import { filters } from "./Filters.jsx";
+import { Filters } from "./Filters.jsx";
+import "./Header.css";
 export function Header() {
   return (
     <header>
