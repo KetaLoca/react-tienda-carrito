@@ -40,6 +40,10 @@ export function Filters({ onChange }) {
           <option value="all">Todas</option>
           <option value="smartphones">Móviles</option>
           <option value="laptops">Portátiles</option>
+          <option value="fragrances">Fragancias</option>
+          <option value="skincare">Cuidado de la piel</option>
+          <option value="groceries">Groceries</option>
+          <option value="home-decoration">Decoración de hogar</option>
         </select>
       </div>
     </section>
