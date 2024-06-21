@@ -9,7 +9,9 @@ export function Products({ products }) {
           <li key={product.id}>
             <img src={product.thumbnail} alt={product.title} />
             <div>
-              <strong>{product.title}</strong>
+              <strong>
+                {product.title} - ${product.price}
+              </strong>
             </div>
             <div>
               <button>
