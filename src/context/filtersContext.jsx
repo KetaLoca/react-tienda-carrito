@@ -1,6 +1,5 @@
 import { createContext, useState } from "react";
 
-//Constante que debemos consumir para recuperar el State
 export const FiltersContext = createContext();
 
 export function FiltersProvider({ children }) {

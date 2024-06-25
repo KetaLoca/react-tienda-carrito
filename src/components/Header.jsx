@@ -1,5 +1,5 @@
 import { Filters } from "./Filters.jsx";
-export function Header({onChange}) {
+export function Header({ onChange }) {
   return (
     <header>
       <h1>REACT SHOP🛒</h1>
