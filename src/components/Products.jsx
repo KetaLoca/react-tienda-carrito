@@ -1,14 +1,14 @@
 import "./Products.css";
-import {products as initialProducts} from "../mocks/products.json"
+import { products as initialProducts } from "../mocks/products.json";
 import { AddToCartIcon } from "./Icons";
 import { useState } from "react";
-import {useFilters} from "../hooks/useFilters"
+import { useFilters } from "../hooks/useFilters";
 
 export function Products() {
-  
   const [products, setProducts] = useState(initialProducts);
   const { filterProducts } = useFilters();
   const filteredProducts = filterProducts(products);
+  
   return (
     <main className="products">
       <ul>
