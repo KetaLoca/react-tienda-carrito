@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Header onChange={setFilters} />
+      <Header />
       <Products products={filteredProducts} />
       <Footer />
     </>
